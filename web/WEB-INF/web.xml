@@ -17,4 +17,30 @@
         <servlet-name>Up</servlet-name>
         <url-pattern>/TomcatTest/Up</url-pattern>
     </servlet-mapping>
-</web-app>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>DisplayHeader</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>com.runoob.test.DisplayHeader</servlet-class>
+    </servlet>
+    <servlet-mapping>
+
+        <servlet-name>DisplayHeader</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/TomcatTest/DisplayHeader</url-pattern>
+    </servlet-mapping>
+
+        <servlet>
+            <!-- 类名 -->
+            <servlet-name>Refresh</servlet-name>
+            <!-- 所在的包 -->
+            <servlet-class>com.runoob.test.Refresh</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>Refresh</servlet-name>
+            <!-- 访问的网址 -->
+            <url-pattern>/TomcatTest/Refresh</url-pattern>
+        </servlet-mapping>
+
+    </web-app>
